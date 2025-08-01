@@ -1,4 +1,3 @@
-// Enhanced Chess Game with Improved UI
 #include <iostream>
 #include <windows.h>
 #include <cstdlib>
@@ -216,9 +215,6 @@ void convertPlay() {
     rowTo = play[2] - '1';
     colTo = play[3] - 'a';
 }
-
-int checkTurn(); // (same implementation as before)
-void updateBoard(); // (same implementation as before)
 
 int main() {
     int count = 0;
