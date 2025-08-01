@@ -2,7 +2,6 @@
 #include <windows.h>
 #include <cstdlib>
 #include <cstring>
-#include <vector>
 using namespace std;
 
 char board[8][8];
